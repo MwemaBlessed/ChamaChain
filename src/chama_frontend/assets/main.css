@@ -1,0 +1,200 @@
+html,
+body {
+  background-color: #f5f5f5; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.navbar {
+    background-color: #3498db;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .navbar img {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive container styles */
+  .container {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: #333; /* Dark gray heading color */
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+h2 {
+  color: #666; /* Medium gray subheading color */
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.divider {
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #3498db; /* Blue divider color */
+}
+
+input,
+textarea {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin: 0;
+  border-radius: 7px;
+  border: 2px #3498db solid; /* Blue border */
+  background-color: #ecf0f1; /* Light gray background */
+  padding: 15px; /* Adjusted padding for input and textarea */
+  width: 100%; /* Make the width 100% */
+  color: #333; /* Dark gray text color */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px #3498db solid; /* Blue border on focus */
+}
+
+.container {
+  background-color: #fff; /* White container background */
+  width: 400px; /* Increased width of the container */
+  margin: 0 auto;
+  border-radius: 14px;
+  padding: 30px; /* Adjusted padding for the container */
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+input[name="amount"] {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#submit-btn {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #3498db solid; /* Blue border for button */
+  color: #fff; /* White text color */
+  background-color: #3498db; /* Blue button color */
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#submit-btn:hover {
+  border: 2px #2980b9 solid; /* Darker blue border on hover */
+  background-color: #2980b9; /* Darker blue button color on hover */
+}
+
+#submit-btn:disabled {
+  border: 2px #bdc3c7 solid; /* Light gray border for disabled button */
+  background-color: #bdc3c7; /* Light gray button color for disabled button */
+}
+
+textarea[name="address"] {
+  resize: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px; /* Adjusted padding for textarea */
+  font-family: 'Arial', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust container width for smaller screens */
+    .container {
+      width: 90%;
+    }
+  
+    /* Adjust padding for smaller screens */
+    .container,
+    .navbar {
+      padding: 20px;
+    }
+  
+    /* Adjust font sizes for smaller screens */
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    .navbar a {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    input,
+    textarea {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    #submit-btn {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+  
+    .container {
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+  
+    .navbar img {
+      width: 30px; /* Adjust logo size for smaller screens */
+    }
+  }
