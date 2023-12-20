@@ -44,3 +44,4 @@ async function updateBalance(){
   const currentBalanceRounded = currentBalance.toFixed(2);
   document.getElementById("value").innerText = currentBalanceRounded;
 }
+
